@@ -49,7 +49,7 @@ class App extends Component{
   }
   fRemove = (i)=> {
     let datas = this.state.datas;
-    datas.splice(i + 1);
+    datas.splice(i,1);
     this.setState({
       datas: datas
     });
